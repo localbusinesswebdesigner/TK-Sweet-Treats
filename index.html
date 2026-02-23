@@ -35,8 +35,12 @@
       background: linear-gradient(rgba(30, 20, 10, 0.55), rgba(20, 12, 5, 0.55)),
                   url('https://wallpapercave.com/wp/wp2013010.jpg') center/cover no-repeat;
       color: white;
-      padding: 100px 20px;
+      padding: 180px 20px;        /* ← INCREASE this value */
       text-align: center;
+      min-height: 60vh;           /* ← ADD this line */
+      display: flex;              /* ← ADD these 3 lines for perfect centering */
+      flex-direction: column;
+      justify-content: center;
     }
 
     header h1 {
@@ -438,4 +442,5 @@
 </footer>
 
 </body>
+
 </html>
